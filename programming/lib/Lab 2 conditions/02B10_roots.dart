@@ -13,8 +13,8 @@ void main() {
 
   int discriminant = (b * b) - (4 * a * c);
 
-  double x1 = ((-1 * b) + sqrt(discriminant)) / 2 * a;
-  double x2 = ((-1 * b) - sqrt(discriminant)) / 2 * a;
+  double x1 = ((-1 * b) + sqrt(discriminant)) / (2 * a);
+  double x2 = ((-1 * b) - sqrt(discriminant)) / (2 * a);
 
   print("Roots are $x1 and $x2");
 }
