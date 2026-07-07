@@ -6,9 +6,10 @@ class MyDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: (Text(
-        "Name : Nabhag, Enrollment no : 240101010275, Branch : B.tech CSE",
-      )),
+      body: (Text("""
+Name : Nabhag Sorathiya, 
+RollNo : 608
+""")),
     );
   }
 }
