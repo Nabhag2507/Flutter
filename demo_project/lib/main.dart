@@ -2,7 +2,10 @@
 // import 'package:demo_project/first_screen.dart';
 // import 'package:demo_project/grids/01_3boxes.dart';
 // import 'package:demo_project/grids/02_equal_grid.dart';
-import 'package:demo_project/grids/03_random_grid.dart';
+// import 'package:demo_project/grids/03_random_grid.dart';
+// import 'package:demo_project/image_button_demo/button_demo.dart';
+// import 'package:demo_project/image_button_demo/image_demo.dart';
+import 'package:demo_project/image_button_demo/exercise_button.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,6 +17,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: RandomGrid());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: ExerciseButton(),
+    );
   }
 }
