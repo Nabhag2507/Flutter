@@ -21,7 +21,13 @@
 // import 'package:demo_project/stateful%20widget%20Lab%2010/sw1_counter_app.dart';
 // import 'package:demo_project/stateful%20widget%20Lab%2010/sw2_change_bg.dart';
 // import 'package:demo_project/stateful%20widget%20Lab%2010/sw3_like_unlike_button.dart';
-import 'package:demo_project/stateful%20widget%20Lab%2010/sw5_dice_roller.dart';
+// import 'package:demo_project/stateful%20widget%20Lab%2010/sw5_dice_roller.dart';
+
+// import 'package:demo_project/validations/Extras/task01_student_reg.dart';
+// import 'package:demo_project/validations/Extras/task02_password_validation.dart';
+import 'package:demo_project/validations/Extras/task03_email_validation.dart';
+// import 'package:demo_project/validations/form1_login_screen.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -33,6 +39,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: DiceRoller());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: EmailValidation(),
+    );
   }
 }
