@@ -25,9 +25,11 @@
 
 // import 'package:demo_project/validations/Extras/task01_student_reg.dart';
 // import 'package:demo_project/validations/Extras/task02_password_validation.dart';
-import 'package:demo_project/validations/Extras/task03_email_validation.dart';
+// import 'package:demo_project/validations/Extras/task03_email_validation.dart';
 // import 'package:demo_project/validations/form1_login_screen.dart';
 
+// import 'package:demo_project/advanced%20forms/00_demo_form.dart';
+import 'package:demo_project/advanced%20forms/01_student_registration_form.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -41,7 +43,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: EmailValidation(),
+      home: StudentRegistrationForm(),
     );
   }
 }
