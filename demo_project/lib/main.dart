@@ -29,7 +29,11 @@
 // import 'package:demo_project/validations/form1_login_screen.dart';
 
 // import 'package:demo_project/advanced%20forms/00_demo_form.dart';
-import 'package:demo_project/advanced%20forms/01_student_registration_form.dart';
+// import 'package:demo_project/advanced%20forms/01_student_registration_form.dart';
+
+// import 'package:demo_project/list%20view%20and%20grid%20view/01_demo.dart';
+// import 'package:demo_project/list%20view%20and%20grid%20view/02_grid_view_builder_demo.dart';
+import 'package:demo_project/list%20view%20and%20grid%20view/03_grid_view_images.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -43,7 +47,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: StudentRegistrationForm(),
+      home: GridViewImages(),
     );
   }
 }
