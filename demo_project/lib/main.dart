@@ -38,8 +38,15 @@
 // import 'package:demo_project/scrollable%20widgets/01_single_child_scroll_view.dart';
 // import 'package:demo_project/scrollable%20widgets/02_1000_text_form_fields.dart';
 // import 'package:demo_project/scrollable%20widgets/03_nested_scroll_view.dart';
-import 'package:demo_project/scrollable%20widgets/04_tab_bar_demo.dart';
-import 'package:demo_project/scrollable%20widgets/05_nested_scroll_view_tabbar.dart';
+// import 'package:demo_project/scrollable%20widgets/04_tab_bar_demo.dart';
+// import 'package:demo_project/scrollable%20widgets/05_nested_scroll_view_tabbar.dart';
+
+// import 'package:demo_project/dialogs/01_simple_dialog_demo.dart';
+// import 'package:demo_project/dialogs/02_alert_with_yesno_button.dart';
+// import 'package:demo_project/dialogs/03_custom_alert_box.dart';
+// import 'package:demo_project/dialogs/04_cupertino_dialog_demo.dart';
+import 'package:demo_project/dialogs/05_date_picker_demo.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -53,7 +60,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TabBarDemoWithNestedScrollView(),
+      home: DatePickerDemoBox(),
     );
   }
 }
