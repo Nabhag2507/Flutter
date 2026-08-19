@@ -45,7 +45,9 @@
 // import 'package:demo_project/dialogs/02_alert_with_yesno_button.dart';
 // import 'package:demo_project/dialogs/03_custom_alert_box.dart';
 // import 'package:demo_project/dialogs/04_cupertino_dialog_demo.dart';
-import 'package:demo_project/dialogs/05_date_picker_demo.dart';
+// import 'package:demo_project/dialogs/05_date_picker_demo.dart';
+// import 'package:demo_project/dialogs/06_date_time_formatting.dart';
+import 'package:demo_project/dialogs/07_bottom_sheet.dart';
 
 import 'package:flutter/material.dart';
 
@@ -60,7 +62,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DatePickerDemoBox(),
+      home: BottomSheetDemoPage(),
     );
   }
 }
