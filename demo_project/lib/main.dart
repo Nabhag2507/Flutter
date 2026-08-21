@@ -47,7 +47,13 @@
 // import 'package:demo_project/dialogs/04_cupertino_dialog_demo.dart';
 // import 'package:demo_project/dialogs/05_date_picker_demo.dart';
 // import 'package:demo_project/dialogs/06_date_time_formatting.dart';
-import 'package:demo_project/dialogs/07_bottom_sheet.dart';
+// import 'package:demo_project/dialogs/07_bottom_sheet.dart';
+
+// import 'package:demo_project/drawer/01_drawer_demo.dart';
+// import 'package:demo_project/drawer/02_user_accounts_drawer_header.dart';
+// import 'package:demo_project/drawer/03_bottom_navigation_bar.dart';
+// import 'package:demo_project/drawer/04_page_view_demo.dart';
+import 'package:demo_project/drawer/05_page_view_with_bottom.dart';
 
 import 'package:flutter/material.dart';
 
@@ -62,7 +68,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BottomSheetDemoPage(),
+      home: BottomBarWithPageController(),
     );
   }
 }
